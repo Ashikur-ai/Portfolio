@@ -1,47 +1,19 @@
 import React from 'react';
 import image from "../../assets/background.jpg"
 import Banner from '../../components/Banner';
-import { FaCss3, FaHtml5, FaReact } from 'react-icons/fa6';
-import { RiJavascriptFill } from "react-icons/ri";
+
+import About from '../../components/About';
+import Experience from '../../components/Experience';
+import RecentWorks from '../../components/RecentWorks';
 const Home = () => {
     return (
         <div className=''>
 
             <Banner></Banner>
-            <section className='w-full mx-auto'>
-                <p className='text-5xl font-bold'>About me</p>
-                <section className='grid-flow-row lg:grid grid-cols-7 gap-10 w-3/4 mx-auto mt-10'>
-                    <div className=" col-span-2">
-                        <div className="w-52 rounded-full">
-                            <img src="https://i.ibb.co/mFGFSBG/profile.jpg" className='rounded-e-full'/>
-                        </div>
-                    </div>
+            <About></About>
 
-                    <div className="card bg-base-100 shadow-xl border col-span-5">
-                        <div className="card-body">
-                            <section className='flex justify-center items-center'>
-                            <div className='w-1/2'>
-                                <p>Hi, I am Ashikur Rahman, Frontend developer, is on a journey to master the MERN stack.
-                        💻 Currently I am working on projects using technology like HTML, CSS, and JavaScript and
-                        wield the power of React.js for dynamic front-end experiences.
-                        On the server side, I thrive in Express.js and dive deep into MongoDB for data wizardry.</p>
-                            </div>
-                            <div>
-                            <p className='text-2xl font-bold flex items-center'><FaHtml5></FaHtml5> HTML</p>
-                            <progress className="progress progress-success w-56" value="90" max="100"></progress>
-                            <p className='text-2xl font-bold flex items-center'><FaCss3></FaCss3> CSS</p>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
-                            <p className='text-2xl font-bold flex items-center'><RiJavascriptFill /> JavaScript</p>
-                            <progress className="progress progress-success w-56" value="80" max="100"></progress>
-                            <p className='text-2xl font-bold flex items-center'><FaReact /> React</p>
-                            <progress className="progress progress-success w-56" value="70" max="100"></progress>
-                            </div>
-                            </section>
-                        </div>
-                    </div>
-
-                </section>
-            </section>
+            <Experience></Experience>
+            <RecentWorks></RecentWorks>
         </div>
     );
 };
