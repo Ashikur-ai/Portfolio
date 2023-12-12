@@ -5,6 +5,8 @@ import Banner from '../../components/Banner';
 import About from '../../components/About';
 import Experience from '../../components/Experience';
 import RecentWorks from '../../components/RecentWorks';
+import Contact from '../../components/Contact';
+import Footer from '../../components/Footer';
 const Home = () => {
     return (
         <div className=''>
@@ -14,6 +16,8 @@ const Home = () => {
 
             <Experience></Experience>
             <RecentWorks></RecentWorks>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };

@@ -7,7 +7,7 @@ const RecentWorks = () => {
             <section className=''>
                 <p className='text-5xl font-bold w-3/4 mx-auto mt-10'>Recent Projects</p>
 
-                <section className='w-3/4 mx-auto grid grid-cols-3 gap-10 mt-10'>
+                <section className='w-3/4 mx-auto grid-flow-row lg:grid  grid-cols-3  gap-10 mt-10'>
                     <div className=''>
                         <div className="card card-compact border  bg-base-100 shadow-xl">
                             <figure><img src="https://i.ibb.co/1JqhMB4/P1.png" alt="Shoes" /></figure>
@@ -24,7 +24,7 @@ const RecentWorks = () => {
                     </div>
 
                     <div className=''>
-                        <div className="border card card-compact  bg-base-100 shadow-xl">
+                        <div className="border card card-compact  bg-black text-white shadow-xl">
                             <figure><img src="https://i.ibb.co/G5v1x7J/P2.png" alt="Shoes" /></figure>
                             <div className="card-body">
                                 <h2 className="card-title font-bold">Shine-Event</h2>
