@@ -13,7 +13,7 @@ const Banner = () => {
                             <img src="https://i.ibb.co/SfPYD6T/68597819.jpg" />
                         </div>
                     </div>
-                    <p className="mb-3 text-5xl font-bold text-blue-700">
+                    <p className="mb-3 text-5xl font-bold ">
                         Ashikur Rahman
                     </p>
                     <p className='mb-5 font-bold'>Frontend Developer</p>
@@ -34,7 +34,7 @@ const Banner = () => {
                     <Link
                         to="https://drive.google.com/file/d/13xjpeB3pqBxFYzuu_IcZdC_M2GWw8I_L/view?usp=sharing"
                     >
-                        <button className="btn btn-primary">Download Resume</button>
+                        <button className="btn btn-primary bg-black">Download Resume</button>
 
                     </Link>
 

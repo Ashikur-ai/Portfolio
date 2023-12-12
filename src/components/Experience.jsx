@@ -21,7 +21,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 shadow-xl border col-span-4">
+                    <div className="card bg-black text-white shadow-xl border col-span-4">
                         <div className="card-body">
                             <section className='flex flex-col lg:flex-row justify-center items-center'>
                                 <p className='text-4xl'><FaGraduationCap></FaGraduationCap></p>
@@ -35,7 +35,7 @@ const Experience = () => {
                         </div>
                     </div>
 
-                    <div className="card bg-base-100 shadow-xl border col-span-4">
+                    <div className="card bg-black text-white shadow-xl border col-span-4">
                         <div className="card-body">
                             <section className='flex flex-col lg:flex-row justify-center items-center'>
                                 <p className='text-4xl'><FaGraduationCap></FaGraduationCap></p>

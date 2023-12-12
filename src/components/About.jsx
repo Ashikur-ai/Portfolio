@@ -8,8 +8,8 @@ const About = () => {
             <section className='w-full mx-auto'>
                 <section className='grid-flow-row lg:grid grid-cols-7 gap-10 w-3/4 mx-auto mt-10'>
                     <div className=" col-span-2">
-                        <div className="w-52 rounded-full">
-                            <img src="https://i.ibb.co/mFGFSBG/profile.jpg" className='rounded-e-full' />
+                        <div className=" rounded-full">
+                            <img src="https://i.ibb.co/mFGFSBG/profile.jpg" className='lg:rounded-e-full' />
                         </div>
                     </div>
 

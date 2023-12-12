@@ -7,6 +7,7 @@ import Experience from '../../components/Experience';
 import RecentWorks from '../../components/RecentWorks';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
+import OtherActivities from '../../components/OtherActivities';
 const Home = () => {
     return (
         <div className=''>
@@ -16,6 +17,7 @@ const Home = () => {
 
             <Experience></Experience>
             <RecentWorks></RecentWorks>
+            <OtherActivities></OtherActivities>
             <Contact></Contact>
             <Footer></Footer>
         </div>
